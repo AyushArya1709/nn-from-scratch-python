@@ -10,7 +10,7 @@ class NeuralNetwork:
         self.learning_rate = learning_rate
         self.weights = []
         self.biases = []
-        self._initialize_parameters()
+        self._initialize_parameters()   
     
     def _initialize_parameters(self):
         np.random.seed(42)
